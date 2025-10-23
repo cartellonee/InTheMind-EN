@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title id="page-title">In The Mind</title>
+		<link rel="stylesheet" href="Menu_Style_EN.css">
+		<link rel="icon" href="Ren1.ico" type="image/x-icon">
+		<div class="header-bar"></div>
+	</head>
+	<body>
+	
+		<div class="header-bar">
+			<img src="logo.png" alt="Logo" class="logo">
+			<button class="discord-btn" onclick="window.open('https://discord.gg/BbbmnDnz4V', '_blank')"> </button>
+			<button class="threads-btn" onclick="window.open('https://www.threads.com/@cartellonee', '_blank')"></button>
+			<button class="twitter-btn" onclick="window.open('https://x.com/cartellonee', '_blank')"></button>
+			<button class="lang-btn" onclick="toggleLanguage()">Switch to italian</button>
+		</div>
+		
+		<button class="demo-btn" onclick="window.open('https://cartellonee.github.io/InTheMind-EN_Demo/')">download the demo</button>
+		
+		<section class="announcements-section">
+			<h2>News and Updates</h2>
+			<div class="announcement" onclick="window.location.href = 'Update1_EN.html';">
+            <h3>IN THE MIND</h3>
+            <p>official announcement of "IN THE MIND"</p>
+			<small>17/10/2025</small>
+        </div>
+		
+		
+		<script>
+			function CheckDevice() {
+				const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+				if (/android|iphone|ipad|ipod/i.test(userAgent)) {
+					window.location.href = "YouCantEnterWithCellphone.html";
+				}
+			}
+		
+			window.onload = checkDevice;
+			
+			
+
+		
+			function toggleLanguage() {
+				window.location.href = 'Menu_Index_IT.html';
+			}
+		</script>
+	</body>
+</html>

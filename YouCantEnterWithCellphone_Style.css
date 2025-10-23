@@ -1,0 +1,21 @@
+@font-face {
+    font-family: '8bitOperatorPlus';
+    src: url('8bitOperatorPlus-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #1a2a44;
+	font-family: '8bitOperatorPlus', sans-serif;
+}
+.h2-section h2 {
+	color: #ffffff; /* Colore predefinito, modificabile */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+	font-family: '8bitOperatorPlus', sans-serif;
+}
